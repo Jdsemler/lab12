@@ -12,10 +12,7 @@ class MyApp:
 		self.myContainer1 = Frame(parent)
 		self.myContainer1.pack()
 		
-		self.button1 = Button(self.myContainer1)
-		self.button1["text"]= "Hello"
-		self.button1["background"] = "red"
-		self.button1.grid(row=0,column=0)	### (1)
+			### (1)
 
 
 		self.button2 = Button(self.myContainer1)
